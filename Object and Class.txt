@@ -1,0 +1,5 @@
+Object
+This is the basic unit of object oriented programming. That is both data and function that operate on data are bundled as a unit called as object.
+
+Class
+When you define a class, you define a blueprint for an object. This doesn't actually define any data, but it does define what the class name means, that is, what an object of the class will consist of and what operations can be performed on such an object.
