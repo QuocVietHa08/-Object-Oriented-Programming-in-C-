@@ -1,0 +1,31 @@
+The capability of a class to derive properties and characteristics from another class is called Inheritance.
+When using Inheritance there are two kind of class:
+ + Sub Class: The class that inherits properties from another class is called Sub class or Derived Class.
+ +Super Class:The class whose properties are inherited by sub class is called Base Class or Super class.
+
+ - Why we have to use inherited ??
+ -Using inherited, we have to write less code, may be we can write a function only one time in some case. That will reduce the chances of error code and data redundancy.
+
+
+ -The way to use Inheritance:
+ Implementing inherited in C++: for creating a sub-class which is inherited form the base class that we have to follow the below syntax:
+
+ syntax :
+ class sub-class : access-mode base_class_name
+ {
+
+ // body of the sub-class
+
+ };
+- Some modes of inherited :
++ public mode :If we derive a sub class from a public base class. Then the public member of the base class will become public in the derived class and protected members of the base class will become protected in derived class.
++ protected mode:: If we derive a sub class from a Protected base class. Then both public member and protected members of the base class will become protected in derived class.
++ private mode: If we derive a sub class from a Private base class. Then both public member and protected members of the base class will become Private in derived class.
+
+
+- In inherited we also have :
++ single inherited 
++ multi inherited 
++ multi level inherited 
++ Hierarchical Inheritance
++ Hybrid (Virtual) Inheritance
